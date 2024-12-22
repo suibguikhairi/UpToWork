@@ -1,0 +1,15 @@
+package tn.tekup.spring.uptowork;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class UpToWorkApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(UpToWorkApplication.class, args);
+    }
+
+}
