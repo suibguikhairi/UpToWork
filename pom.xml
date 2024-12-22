@@ -15,6 +15,11 @@
     <description>uptowork</description>
     <properties>
         <java.version>8</java.version>
+        <sonar.projectKey>UpToWork</sonar.projectKey>
+        <sonar.host.url>http://host.docker.internal:9000</sonar.host.url>
+        <sonar.login>sqa_e358fa7c7d57d16eb763c4ad2d26fcd9f8d8765b</sonar.login>
+        <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+
     </properties>
     <dependencies>
         <dependency>
