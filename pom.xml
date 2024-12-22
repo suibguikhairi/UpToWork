@@ -8,7 +8,7 @@
         <version>2.7.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>tn.esprit.spring</groupId>
+    <groupId>tn.tekup.spring</groupId>
     <artifactId>UpToWork</artifactId>
     <version>4.0</version>
     <name>uptowork</name>
